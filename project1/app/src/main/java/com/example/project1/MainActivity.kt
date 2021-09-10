@@ -26,15 +26,15 @@ class MainActivity : AppCompatActivity() {
         return true
     }
 
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+    //override fun onOptionsItemSelected(item: MenuItem): Boolean {
         // Handle action bar item clicks here. The action bar will
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
-        return when (item.itemId) {
-            R.id.action_settings -> true
-            else -> super.onOptionsItemSelected(item)
+        //return when (item.itemId) {
+           // R.id.action_settings -> true
+            //else -> super.onOptionsItemSelected(item)
         }
-    }
+
 
     class MainActivity : AppCompatActivity() {
         override fun onCreate(savedInstanceState: Bundle?) {
@@ -71,5 +71,5 @@ class MainActivity : AppCompatActivity() {
     // var armrest: Short = 2 //количество подлокотников
     // var back_support: Boolean = (true) //поддержка спины - есть
     // val name: String "Чёрный трон 9" //неизменное название, константа
-}
+
 
